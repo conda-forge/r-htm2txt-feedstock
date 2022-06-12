@@ -1,4 +1,4 @@
-{% set version = "2.2.1" %}
+{% set version = "2.2.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/htm2txt_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/htm2txt/htm2txt_{{ version }}.tar.gz
-  sha256: b6e45130a32c017c9aeb378b76e5f7d70d9a15d9c9979c0da47507433d877068
+  sha256: a077c4c5c055033441a8f1425a0ec2cd497b85930f3bf99715ed738227db0338
 
 build:
   merge_build_host: true  # [win]
