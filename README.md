@@ -1,11 +1,11 @@
-About r-htm2txt
-===============
+About r-htm2txt-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-htm2txt-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/sangchulpark
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-htm2txt-feedstock/blob/main/LICENSE.txt)
 
 Summary: Convert a html document to simple plain texts by removing all html tags.  This package utilizes regular expressions to strip off html tags. It also offers gettxt() and browse() function, which enables you to get or browse texts at a certain web page.
 
